@@ -133,7 +133,7 @@ You can deploy this project on github following instructions here:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fombi-Favour/Microverse-portfolio/issues).
+Feel free to check the [issues page](https://github.com/Fombi-Favour/microverse-portfolio-bootstrap/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
