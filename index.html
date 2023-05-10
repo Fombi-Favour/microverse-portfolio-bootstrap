@@ -8,11 +8,184 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio with Bootstrap</title>
 </head>
 <body>
-    <p>Hello!!!</p>
+    <header>
+        <nav class="navbar navbar-expand-md with-menu">
+            <div class="container">
+                <a href="#" class="navbar-brand logo">My Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assets/img/menu.png" alt="menu">
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="background text-start">
+            <div class="container">
+                <div class="intro">
+                    <h1 class="main-text">I'm Favour <br> Glad to see you</h1>
+                    <p class="sub-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                    <h5>LET'S CONNECT</h5>
+                    <ul class="nav gap-3">
+                        <li class="nav-item"><a href="#"><img src="/assets/img/twitter.svg" alt="twitter"></a></li>
+                        <li class="nav-item"><a href="#"><img src="/assets/img/Linkedin icon.svg" alt="linkedin"></a></li>
+                        <li class="nav-item"><a href="#"><img src="/assets/img/medium.svg" alt="medium"></a></li>
+                        <li class="nav-item"><a href="#"><img src="/assets/img/github.svg" alt="github"></a></li>
+                        <li class="nav-item"><a href="#"><img src="/assets/img/angellist.svg" alt="angellist"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <main class="projects d-flex flex-column gap-4">
+            <!------ project 1 --->
+            <div class="container">
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/assets/img/project1.svg" alt="project-1" class="demo">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h1 class="card-title main-text">Tonic</h1>
+                                <ul class="nav gap-2">
+                                    <li class="nav-item text-uppercase author">canopy</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">Back End Dev</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">2015</li>
+                                </ul>
+                                <p class="mt-4">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                                <ul class="nav gap-2 mb-3">
+                                    <li class="nav-item tag">HTML</li>
+                                    <li class="nav-item tag">CSS</li>
+                                    <li class="nav-item tag">JavaScript</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-primary btn-lg">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ project 2 ----->
+            <div class="container">
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/assets/img/project2.svg" alt="project-2" class="demo">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h1 class="card-title main-text">Uber Navigation</h1>
+                                <ul class="nav gap-2">
+                                    <li class="nav-item author">Uber</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">Lead Developer</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">2018</li>
+                                </ul>
+                                <p class="mt-4">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                                <ul class="nav gap-2 mb-3">
+                                    <li class="nav-item tag">HTML</li>
+                                    <li class="nav-item tag">Ruby on Rails</li>
+                                    <li class="nav-item tag">CSS</li>
+                                    <li class="nav-item tag">JavaScript</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-primary btn-lg">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ project 3 ----->
+            <div class="container">
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/assets/img/project3.svg" alt="project-3" class="demo">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h1 class="card-title main-text">Facebook 360</h1>
+                                <ul class="nav gap-2">
+                                    <li class="nav-item text-uppercase author">facebook</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">Full Stack Dev</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">2015</li>
+                                </ul>
+                                <p class="mt-4">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                                <ul class="nav gap-2 mb-3">
+                                    <li class="nav-item tag">HTML</li>
+                                    <li class="nav-item tag">CSS</li>
+                                    <li class="nav-item tag">Ruby on Rails</li>
+                                    <li class="nav-item tag">JavaScript</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-primary btn-lg">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ project 4 ----->
+            <div class="container">
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/assets/img/project4.svg" alt="project-4" class="demo">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h1 class="card-title main-text">Multi-Post Stories</h1>
+                                <ul class="nav gap-2">
+                                    <li class="nav-item text-uppercase author">facebook</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">Full Stack Dev</li>
+                                    <li class="nav-item"><img src="/assets/img/Counter.svg" alt="dot"></li>
+                                    <li class="nav-item">2015</li>
+                                </ul>
+                                <p class="mt-4">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                                <ul class="nav gap-2 mb-3">
+                                    <li class="nav-item tag">HTML</li>
+                                    <li class="nav-item tag">CSS</li>
+                                    <li class="nav-item tag">Ruby on Rails</li>
+                                    <li class="nav-item tag">JavaScript</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-primary btn-lg">
+                                    See Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section></section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
