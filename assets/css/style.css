@@ -42,14 +42,14 @@ body {
   padding: 30% 20%;
 }
 
-.background .main-text {
+.main-text {
   font-size: 48px;
   font-weight: 700;
-  color: #091E42;
+  color: #091e42;
   letter-spacing: 0.37px;
 }
 
-.background .sub-text {
+.sub-text {
   font-size: 20px;
   font-weight: 400;
   color: #344563;
@@ -59,4 +59,54 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
+}
+
+.projects {
+  margin-top: 8rem;
+  margin-bottom: 2.02rem;
+}
+
+.projects .container {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  width: 1156px;
+}
+
+.projects .container:nth-child(2n) .projects .col-md-6 {
+  order: 1;
+}
+
+.projects .card {
+  border: none;
+}
+
+.projects .demo {
+  width: 457px;
+}
+
+.projects .card-title {
+  font-size: 40px;
+  color: #091e42;
+}
+
+.projects li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b778c;
+}
+
+.projects .author {
+  color: #344563;
+  font-weight: 500;
+}
+
+.projects .tag {
+  background: #ebebff;
+  padding: 4px 11px;
+  border-radius: 8px;
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
