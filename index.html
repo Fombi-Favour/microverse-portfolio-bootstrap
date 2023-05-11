@@ -240,7 +240,39 @@
     </section>
     <section class="contact-me">
         <div class="container text-center">
-            Hola!
+            <h2 class="h1 main-text">Contact me</h2>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+            <form action="https://formspree.io/f/xwkjylde"method="POST" class="form-section">
+                <ul class="form-ul">
+                    <li>
+                      <input
+                        type="text"
+                        maxlength="30"
+                        name="user_name"
+                        placeholder="Name Lastname"
+                        required
+                      />
+                    </li>
+                    <li>
+                      <input
+                        type="email"
+                        name="user_email"
+                        placeholder="loremipsum@gmail.com"
+                        required
+                      />
+                    </li>
+                    <li>
+                      <textarea
+                        type="message"
+                        name="user_message"
+                        placeholder="Write your message here..."
+                        maxlength="550"
+                      ></textarea>
+                    </li>
+                    <button name="my-button">Get in touch</button>
+                  </ul>
+                </form>
+            </form>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
