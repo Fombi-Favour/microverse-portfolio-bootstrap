@@ -115,9 +115,8 @@ You can deploy this project on github following instructions here:
 
 👤 **Agustin Soria**
 
-- GitHub: [maths29](https://github.com/maths29)
-- Twitter: [@maths29](https://twitter.com/maths29)
-- LinkedIn: [Iwu John](https://www.linkedin.com/in/iwu-john-b92b01148/)
+- GitHub: [SaveryIV](https://github.com/maths29)
+- LinkedIn: [Agustin Ricardo Soria Meza](https://www.linkedin.com/in/agust%C3%ADn-ricardo-soria-meza-979747228/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
