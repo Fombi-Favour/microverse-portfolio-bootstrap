@@ -161,7 +161,6 @@ h5 {
 }
 
 .contact-me .container {
-  min-height: 80vh;
   background: url(/assets/img/desktop-shape.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -190,7 +189,6 @@ h5 {
   border-top-left-radius: 70px;
   color: white;
   margin-bottom: 0;
-  min-height: 80vh;
   background-image: url("./resources/Desktop-version/images/contact\ form\ background\ shapes@2x.png");
   background-size: 85%;
   background-position: 50%;
